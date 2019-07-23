@@ -1,0 +1,297 @@
+body{
+	background: url(../img/img-19.gif)repeat;
+}
+.to{
+	float: left;
+	width: 100%;
+	height: 60px;
+	background: url(../img/img-1.gif) repeat-x;
+}
+a{
+	text-decoration: none;
+}
+.to img{
+	float: left;
+	margin-left: 200px;
+}
+.to2{
+	float: left;
+	width: 1900px;
+	height: 63px;
+	background: url(../img/img-8.gif) repeat-x;
+}
+.to2 ul{
+	margin-top: 0px;
+}
+.to2 li{
+	display: inline-block;
+	color: #4bafea;vertical-align: middle;
+	width: 120px;
+	height: 65px;
+}
+.to2>ul{
+	width: 1030px;
+	margin-left: 120px;
+}
+.to2 a{
+	text-decoration: none;
+}
+.to2>img{
+	float: left;
+}
+.to2>ul>li>div{
+	display: inline-block;
+	width: 80px;
+	position: relative;
+	top:-25px
+}	
+.aa1{
+	float: left;
+	color: white;
+	font-size: 18px;
+	width: 60px;
+	height: 53px;
+	padding-top: 0px;
+	margin-left: 38px;
+	line-height: 53px;
+}
+.aa1 a{
+	margin-left: 12px;
+	color: #8c8c8c;
+}
+.aa2{
+	float: left;
+	color: white;
+	font-size: 18px;
+	width: 80px;
+	height: 53px;
+	padding-top: 0px;
+	margin-left: 50px;
+	line-height: 53px;
+}
+.aa2 a{
+	margin-left: 4px;
+	color: #8c8c8c;
+}
+.aa3{
+		float: left;
+	color: white;
+	font-size: 18px;
+	width: 60px;
+	height: 53px;
+	padding-top: 0px;
+	margin-left: 38px;
+	line-height: 53px;
+}
+.aa3 a{
+	margin-left: 11px;
+	color: #8c8c8c;
+}
+.aa4{
+		float: left;
+	color: yellow;
+	font-size: 18px ;
+	width: 120px;
+	height: 53px;
+	line-height: 53px;
+	margin-left: 38px;
+	font-weight: bold;
+}
+.aa4 a{
+	margin-left: 5px;
+	color: yellow;
+}
+.aa5{
+	float: right;
+	color: white;
+	font-size: 18px;
+	width: 60px;
+	height: 53px;
+	margin-right: 300px;
+	line-height: 53px;
+}
+.aa5 a{
+	margin-left: 10px;
+	color: #8c8c8c;
+}
+.aa6{
+		float: right;
+	color: white;
+	font-size: 18px;
+	width: 60px;
+	height: 53px;
+	line-height: 53px;
+}
+.aa6 a{
+	margin-left: 13px;
+	color: #8c8c8c;
+}
+.zhu{
+	float: left;
+	width: 1900px;
+	height: 2500px;
+	border: 1px solid red;
+}
+.zhu2{
+	float: left;
+	width: 1510px;
+	height: 2000px;
+	border:  1px solid yellow;
+	margin-left: 165px;
+}
+.zhu3{
+	float: left;
+	width: 600px;
+	height: 30px;
+	border: 1px solid red;
+}
+.zhu4{
+	float: left;
+	width: 1503px;
+	height: 113px;
+	border: 1px solid red;
+}
+.zhu3>ul{	
+	list-style-type: none;
+	clear: both;
+	margin-top: 0px;
+}
+.zhu3>ul>li{
+	display: inline-block;
+}
+.zhu3>ul>li:first-child{
+	margin-left: -35px;
+	margin-top: 4px;
+}
+.zhu3 a{
+	font-size: 15px;
+	width: 70px;
+	height: 20px;
+	border:1px solid red;
+}
+.lm li span{
+	margin-left: 5px;
+	font-size: 15px;
+	cursor: pointer;
+}
+.lm li span:hover{
+	color:#4ba6e5;
+}
+.lm li img{
+	position: relative;
+	top: 6px;
+}
+.zhu5{
+	width: 1506px;
+	height: 1820px;
+	border: 1px solid;
+}
+.zhu5left{
+	float: left;
+	width: 202px;
+	height: 500px;
+	border: 1px solid yellow;
+}
+.zhu5left1{
+	float: left;
+	width: 190px;
+	height:30px;
+	border: 1px solid;
+}
+.zhu5left1>a{
+	margin-left: 20px;
+	color: #999999;
+	font-size: 15px;
+}
+.zhu5left2{
+	float: right;
+	width: 180px;
+	height: 20px;
+	border: 1px solid red;
+	margin-top: 20px;
+	margin-right: 15px;
+}
+.zhu5left2>a:hover{
+	color: red;
+}
+.zhu5left3{
+	float: left;
+	width: 165px;
+	height: 165px;
+	border: 1px solid red;
+	margin-left: 19px;
+	margin-top: 20px;
+}
+.zhu5right1{
+	float: right;
+	width: 1300px;
+	height: 47px;
+	border: 1px solid red;
+	background-color: white;
+}
+.zhu5right1>span{
+	float: left;
+	font-size: 20px;
+	font-weight: bold;
+	color: #666666;
+	margin-left: 20px;
+	margin-top: 12px;
+}
+.zhu5rightimg{
+	float: left;
+	width: 40px;
+	height: 30px;
+	margin-top: 15px;
+}
+.zhu5right1>a{
+	float: left;
+	width: 80px;
+	height: 25px;
+	
+	margin-top: 15px;
+	color: #666666;
+	font-size: 13px;
+}
+.zhu5rightimg2{
+	float: right;
+	width: 100px;
+	height: 25px;
+	margin-top: 10px;
+}
+.zhu5right2{
+	float: left;
+	width: 1300px;
+	height: 46px;
+	border: 1px solid red;
+}
+#img1{
+	float: left;
+	margin-top: 5px;
+}
+#ziti1{
+	float: left;
+	font-size: 16px;
+	margin-top: 4px;
+}
+#hang{
+	float: left;
+	width: 1250px;
+	height: 30px;
+	margin-left: 20px;
+	margin-top: 8px;
+	border: 1px solid red;
+}
+#ziti2{
+	float: left;
+	font-size: 16px;
+	margin-top: 3px;
+	
+}
+#ziti3{
+	float: right;
+	margin-top: 3px;
+}
+#img2{
+	float: right;
+	margin-top: 3px;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="css/haizwang.css" />
+		<link rel="stylesheet" href="css/global.css" />
+		<title></title>
+	</head>
+		
+	<body>
+		
+		<div class="main">
+			<div class="MM">
+				<div class="to1"><img src="img/img-2.gif">
+			
+				</div>
+					<div class="to2" id="A"><a>首页</a></div>
+			<div class="to2" id="b"><a>签到</a></div>
+			</div>
+			
+			<img src="img/img-3.gif" width="2000px"/>
+		<div class="lun">
+		<img src="img/t0108888f690f5d2286.jpg" id="x"/>
+		<img src="img/img-333 (1).jpg" id="c" />
+		</div>
+		<div class="di"><img src="img/img-4.gif" /></div>
+	</div>
+	</body>
+	
+	
+	<script type="text/javascript" src="js/jquery-1.12.4.js" ></script>
+	<script type="text/javascript">
+		$("#A").hover(function(){
+			$("#A").css("background-color","#444648");
+		}).mouseout(function(){
+			$("#A").css("background-color","transparent");
+		});
+		$("#b").hover(function(){
+			$("#b").css("background-color","#444648");
+		}).mouseout(function(){
+			$("#b").css("background-color","transparent");
+		});
+		var imgs = new Array("img/t0108888f690f5d2286.jpg","img/t019a08e4c926379405.jpg","img/t01ddd469db416095c2.jpg","img/t01f4cb77f08bf633e9.jpg");
+        var i=0;
+        setInterval(function () {
+            $("#x").attr("src",imgs[i]);
+            i++;
+            if(i==4){
+                i=0;
+            }
+        },1500);
+      var imgss = new Array("img/img-333 (1).jpg","img/img-333 (2).jpg");
+      var q=0;
+      setInterval(function () {
+          $("#c").attr("src",imgss[q]);
+          q++;
+         if(q==2){
+             q=0;
+          }
+      },1500);
+	</script>
+
+</html>

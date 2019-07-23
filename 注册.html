@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="css/注册.css" />
+		<title></title>
+	</head>
+	<body>
+		<div class="zhuti">
+		<div class="to">
+				<img src="img/img-2.gif"/>
+				<div class="aa1" id="A"><a>首页</a></div>
+				<div class="aa2" id="b"><a>海贼首页</a></div>
+				<div class="aa3" id="c"><a>签到</a></div>
+				<div class="aa4" id="d"><a>海贼头条</a></div>
+				<div class="aa5" id="e"><a>注册</a></div>
+				<div class="aa6" id="f"><a>登录</a></div>
+			</div>
+			<div class="to2">
+				<ul>
+					<li><img src="img/img-9.gif"><div><a href="#">新人报道</a></div></li>
+					<li><img src="img/img-10.gif"><div><a href="#">海贼话题</a></div></li>
+					<li><img src="img/img-11.gif"><div><a href="#">每日壁纸</a></div></li>
+					<li><img src="img/img-12.gif"><div><a href="#">海贼手办</a></div></li>
+					<li><img src="img/img-13.gif"><div><a href="#">海贼动画</a></div></li>
+					<li><img src="img/img-14.gif"><div><a href="#">海贼漫画</a></div></li>
+					<li><img src="img/img-12.gif"><div><a href="#">招募海贼</a></div></li>
+					<li><img src="img/img-12.gif"><div><a href="#">意见反馈</a></div></li>
+				</ul>
+			</div>
+		</div>
+			<div class="zhu1">
+				<div class="tobu">
+					<a href="#">注册</a><img src="img/img-26.gif"/>
+				</div>
+				<div class="shuru">
+				<div style="float: left;margin-left: 10px;margin-top: 10px;"><div class="user">用户名:</div><input type="text" style="width: 291px; height: 43px;display:inline-block;box-shadow:2px 0px 2px 0px deeppink;"/></div>
+				<div style="float: left;margin-left: 10px;margin-top: 20px;"><div class="password">密码:</div><input type="text" style="width: 291px; height: 43px;display:inline-block;box-shadow:2px 0px 2px 0px deeppink;"/></div>
+				<div style="float: left;margin-left: 10px;margin-top: 20px;"><div class="email">Email:</div><input type="text" style="width: 291px; height: 43px;display:inline-block;box-shadow:2px 0px 2px 0px deeppink;"/></div>
+				<div style="float: left;margin-left: 10px;margin-top: 20px;"><div class="yaoqingma">邀请码:</div><input type="text" style="width: 291px; height: 43px;display:inline-block;box-shadow:2px 0px 2px 0px deeppink;"/></div>
+				<div style="float: left;margin-left: 10px;margin-top: 20px;"><div class="yanzm">验证码:</div><input type="text" style="width: 140px; height: 43px;display:inline-block;box-shadow:2px 0px 2px 0px deeppink;"/>
+				<a href="#">&nbsp;&nbsp;换一个</a></div>
+				<div class="yzm">
+					<p>输入下图中的字符</p>
+					<img src="img/img-27.gif" />
+					<div class="tijiao">
+						<a href="#">提交</a><img src="img/img-28.gif" />
+					</div>
+				<hr/>
+				</div>
+				</div>
+				<div class="ooo"><img src="img/img-29.gif"></div>
+			</div>
+			<div class="dibu"><img src="img/img-30.gif" /></div>
+			<script src="js/jquery-1.12.4.js"></script>
+	<script type="text/javascript">
+		$("#A").hover(function(){
+			$("#A").css("background-color","#444648");
+		}).mouseout(function(){
+			$("#A").css("background-color","transparent");
+		});
+		$("#b").hover(function(){
+			$("#b").css("background-color","#444648");
+		}).mouseout(function(){
+			$("#b").css("background-color","transparent");
+		});
+		$("#c").hover(function(){
+			$("#c").css("background-color","#444648");
+		}).mouseout(function(){
+			$("#c").css("background-color","transparent");
+		});
+			$("#d").hover(function(){
+			$("#d").css("background-color","#444648");
+		}).mouseout(function(){
+			$("#d").css("background-color","transparent");
+		});
+		$("#e").hover(function(){
+			$("#e").css("background-color","#444648");
+		}).mouseout(function(){
+			$("#e").css("background-color","transparent");
+		});
+		$("#f").hover(function(){
+			$("#f").css("background-color","#444648");
+		}).mouseout(function(){
+			$("#f").css("background-color","transparent");
+		});
+		$(document).ready(function(){
+			$(".user").blur(function(){
+				var code = $(this).val();
+				var reg= /^[a-z0-9_-]{3,16}$/;
+				if(reg.test(code)==false){
+					$(".user").html("用户名由3-16位数字字母组成");
+					return false;
+				}
+				$(".user").html("");
+				return true;
+			})
+		})
+		</script>
+	</body>
+</html>
